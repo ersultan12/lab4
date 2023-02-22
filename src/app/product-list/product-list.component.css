@@ -1,4 +1,12 @@
-
+.price{
+  width: 40%;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #1976d2;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

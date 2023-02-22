@@ -13,12 +13,16 @@
   <p *ngIf="product.description">
     Description: {{ product.description }}
   </p>
-
+  <div class="box_price">  
+    <p *ngIf="product.price" class = price>
+      price: {{product.price}} ₸
+    </p>
+  </div>
   <button type="button" (click)="share()">
     Share
   </button>
   
 
-  
+
   
 </div>
